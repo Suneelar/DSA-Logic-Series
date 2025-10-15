@@ -10,7 +10,6 @@ char []c1=str1.toCharArray();
 char []c2=str1.toCharArray();
 Array.getShort(c1, 0);
 Array.getShort(c2, 0);
-
 if(Arrays.equals(c1, c2)){
     System.out.println("anagram");
 }else{
@@ -19,7 +18,5 @@ if(Arrays.equals(c1, c2)){
         }else{
             System.out.println("not an anagram");
         }
-
-
     }
 }

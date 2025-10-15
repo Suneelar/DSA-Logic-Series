@@ -1,5 +1,6 @@
 import java.util.LinkedHashMap;
 
+
 public class frequencyOfString {
     public static void main(String[] args) {
         String str="hi how how  are  are yoou";
