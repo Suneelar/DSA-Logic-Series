@@ -5,13 +5,11 @@ public class HappyNumber {
             int rem=no%10;
             sum=sum+rem*rem;
             no=no/10;
-
         }
-        return sum;
-        
+        return sum;   
     }
     public static void main(String[] args) {
-        int no=1234;
+        int no=1;
         while(no>9){
             no = add(no);
             }
@@ -22,4 +20,3 @@ public class HappyNumber {
             }
         }
     }
-
