@@ -11,17 +11,17 @@ public class ReverseAnArray {
         System.out.println("Reversed Array: "+L1);
 
 // method-2 to reverse an array TC 0(n)
-        int[] arr = { 2, 3, 5, 6, 7 };
-        System.out.println("Original array: "+Arrays.toString(arr));
-        int start = 0;
-        int end = arr.length - 1;
-        while (start < end) {
-            int temp = arr[start];
-            arr[start] = arr[end];
-            arr[end] = temp;
-            start++;
-            end--;
-        }
-        System.out.println("Reversed Array: "+Arrays.toString(arr));
+        // int[] arr = { 2, 3, 5, 6, 7 };
+        // System.out.println("Original array: "+Arrays.toString(arr));
+        // int start = 0;
+        // int end = arr.length - 1;
+        // while (start < end) {
+        //     int temp = arr[start];
+        //     arr[start] = arr[end];
+        //     arr[end] = temp;
+        //     start++;
+        //     end--;
+        // }
+        // System.out.println("Reversed Array: "+Arrays.toString(arr));
     }
 }
