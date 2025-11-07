@@ -11,8 +11,7 @@ if(arr[i]+arr[j]==18){
 System.out.println(arr[i]+" "+arr[j]);
             }
             }
-            
-            
+             
         }
     }
 }

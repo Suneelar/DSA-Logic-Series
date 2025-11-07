@@ -7,6 +7,7 @@ public class conopyarea {
         Scanner sc=new Scanner(System.in);
         int num=sc.nextInt();
         double res=(3.14*num*num);
-        System.out.println(res);
+        System.out.println((int)Math.round(res));
+        // System.out.println(res);
     }
-}
+} 
