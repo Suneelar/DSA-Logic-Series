@@ -10,6 +10,7 @@ public class secondmin {
                 fmin=arr[i];
             }
         }
+        
         System.out.println(smin);
 
     }
